@@ -239,7 +239,7 @@ margin-top: 8px;
 
 .focus-section{
     max-width: 1140px;
-    max-height: 700px;
+    height: 700px;
     background-color: #FFFFFF;
     text-align: center;
     margin: 0 auto;
@@ -257,7 +257,7 @@ margin-top: 8px;
 
 .focus-section p{
     color: rgba(179, 179, 179, 1);
-    padding-top: 20px;
+    padding-top: 12px;
     padding-bottom: 20px;
 }
 
@@ -272,3 +272,91 @@ margin-top: 8px;
 }
 
 /* Focus section end */
+/* get in touch section style start */
+
+.get-in-touch{
+    max-width: 1080px;
+    max-height: 635px;
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    align-items: center;
+}
+
+.get-in-touch h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+
+.get-in-touch form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+}
+
+.get-in-touch form input{
+    background-color: #FFFFFF;
+   border: 1px solid #D6DDED;
+   padding: 15px 40px 15px 10px;
+   border-radius: 10px;
+   font-family: "Raleway", sans-serif;
+
+}
+
+.get-in-touch textarea{
+     background-color: #FFFFFF;
+   border: 1px solid #D6DDED;
+   padding: 15px 40px 15px 10px;
+   border-radius: 10px;
+   height: 100px;
+   width: 400px;
+}
+
+/* get in touch section end */
+/* footer style start */
+
+footer{
+    max-width: 1440px;
+    height: 430px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+footer h1{
+    color: rgba(78, 71, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    padding-top: 114px;
+}
+
+footer p{
+    color: #8987A1;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+
+}
+
+footer a{
+  padding-right: 15px;
+  text-decoration: none;
+  color: #8987A1;
+font-family: "Inter", sans-serif;
+font-size: 14px;
+
+
+}
+
+footer a:visited{
+    color: #8987A1;
+}
